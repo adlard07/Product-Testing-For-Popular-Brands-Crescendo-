@@ -1,0 +1,29 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .body-container {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    background-color: #222;
+  }
+  
+  .chart-container {
+    flex: 1;
+    padding: 1rem;
+    background-color: #333;
+    border-radius: 8px;
+  }
+  

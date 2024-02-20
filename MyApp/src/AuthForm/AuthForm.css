@@ -1,0 +1,37 @@
+/* CompanyForm.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

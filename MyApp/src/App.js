@@ -1,10 +1,11 @@
 import React from 'react';
-import Dashboard from './Dashboard';
+import CompanyForm from './AuthForm/AuthForm.js';
 
 const App = () => {
   return (
     <div>
-      <Dashboard />
+      <h1>Company Information Form</h1>
+      <CompanyForm />
     </div>
   );
 };

@@ -16,9 +16,15 @@ const CompanyForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    // Validate GST number length
+    if (formData.gstNumber.length !== 15) {
+      alert('GST number must be 15 digits.');
+      return;
+    }
+
     try {
       // Replace 'YOUR_API_ENDPOINT' with the actual API endpoint
-      const response = await fetch('http://127.0.0.1:8080/fill_form', {
+      const response = await fetch('YOUR_API_ENDPOINT', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

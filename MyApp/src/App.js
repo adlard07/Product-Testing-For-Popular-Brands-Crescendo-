@@ -1,13 +1,12 @@
 import React from 'react';
-import CompanyForm from './AuthForm/AuthForm.js';
+import FoodTestingForm from './AnalysisForm/AnalysisForm.js';
 
-const App = () => {
+function App() {
   return (
     <div>
-      <h1>Company Information Form</h1>
-      <CompanyForm />
+      <FoodTestingForm />
     </div>
   );
-};
+}
 
 export default App;
